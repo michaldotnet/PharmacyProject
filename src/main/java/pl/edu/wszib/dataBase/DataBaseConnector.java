@@ -1,5 +1,6 @@
 package pl.edu.wszib.dataBase;
 
+//import com.mysql.jdbc.Connection;
 import org.apache.commons.codec.digest.DigestUtils;
 import pl.edu.wszib.model.Medicine;
 
@@ -14,7 +15,7 @@ public class DataBaseConnector {
             Class.forName("com.mysql.jdbc.Driver");
             System.out.println("Connectin DB..");
             DataBaseConnector.connection = DriverManager.
-                    getConnection("jdbc:mysql://localhost/apteka?user=root&password=");
+                    getConnection("jdbc:mysql://localhost/Apteka?user=root&password=");
             System.out.println("Connection is done!");
         }catch(SQLException | ClassNotFoundException e){
             e.printStackTrace();
