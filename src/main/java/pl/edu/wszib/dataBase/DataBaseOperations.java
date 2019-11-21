@@ -39,7 +39,6 @@ public class DataBaseOperations {
                 medicineTookFromDB.setQuantity(resultSet.getInt("quantity"));
                 medicineTookFromDB.setNeedPrescription(resultSet.getBoolean("needpre"));
 
-                //if(medicineTookFromDB.equals())
                 return medicineTookFromDB;
             }
         }catch(SQLException e){
@@ -47,4 +46,22 @@ public class DataBaseOperations {
         }
         return null;
     }
+
+    public static void sellMedicine(String medicineForSell, int quantityYouWantToSell){
+        String sqlUpdate = "UPDATE Leki SET quantity = quantity - ? WHERE medicinename = ? AND quantity > ?";
+
+        try{
+            PreparedStatement preparedStatement = DataBaseConnector.connection.prepareStatement(sqlUpdate);
+
+            preparedStatement.setInt(1, quantityYouWantToSell);
+            preparedStatement.setString(2, medicineForSell);
+            preparedStatement.setInt(3, quantityYouWantToSell);
+
+            preparedStatement.executeUpdate();
+        }catch(SQLException e){
+            e.printStackTrace();
+        }
+    }
+
+
 }

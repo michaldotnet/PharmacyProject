@@ -17,15 +17,17 @@ public class Menu {
                     break;
 
                 case 2:
-
+                    ShowInfoAboutMedicineGUI infoAboutMedicine = new ShowInfoAboutMedicineGUI();
+                    infoAboutMedicine.showMedicineInfo();
                     break;
 
                 case 3:
-                    System.exit(0);
+                    SellMedicineGUI sellMedicinenow = new SellMedicineGUI();
+                    sellMedicinenow.sellMedicine();
                     break;
 
                 default:
-
+                    System.exit(0);
                     break;
             }
         }
@@ -37,7 +39,7 @@ public class Menu {
         System.out.println("1) Dodaj lek");
         System.out.println("2) Informacje o danym leku");
         System.out.println("3) Sprzedaj lek");
-        System.out.println("3) Wyjście");
+        System.out.println("4) Wyjście");
 
     }
 }
