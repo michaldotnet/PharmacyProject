@@ -1,7 +1,10 @@
 package pl.edu.wszib;
 import pl.edu.wszib.dataBase.DataBaseOperations;
+import pl.edu.wszib.gui.Menu;
 import pl.edu.wszib.model.Medicine;
 import pl.edu.wszib.dataBase.DataBaseConnector;
+
+import java.util.Scanner;
 
 public class Main {
 
@@ -22,8 +25,8 @@ public class Main {
        Medicine lek = DataBaseOperations.getMedicines("Apap");
         System.out.println(lek);
          */
-        System.out.println("aa");
-        System.out.flush();
+        Menu menu = new Menu();
+        menu.initializeMenu();
 
     }
 }

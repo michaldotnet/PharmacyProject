@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd19e08c-83ba-43f3-9296-ead7f28c941c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/gui/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/gui/SecondMenuChoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/gui/AddMedicineGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dataBase/DataBaseConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dataBase/DataBaseConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dataBase/DataBaseOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/dataBase/DataBaseOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/gui/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/gui/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/gui/SecondMenuChoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/edu/wszib/gui/SecondMenuChoice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Pharmacy-Project-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Pharmacy-Project-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/edu/wszib/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/edu/wszib/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

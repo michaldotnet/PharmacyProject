@@ -1,4 +1,7 @@
+/home/michal/Dokumenty/Apteka/AptekaDB/PharmacyProject/src/main/java/pl/edu/wszib/gui/Menu.java
 /home/michal/Dokumenty/Apteka/AptekaDB/PharmacyProject/src/main/java/pl/edu/wszib/Main.java
 /home/michal/Dokumenty/Apteka/AptekaDB/PharmacyProject/src/main/java/pl/edu/wszib/dataBase/DataBaseOperations.java
 /home/michal/Dokumenty/Apteka/AptekaDB/PharmacyProject/src/main/java/pl/edu/wszib/model/Medicine.java
+/home/michal/Dokumenty/Apteka/AptekaDB/PharmacyProject/src/main/java/pl/edu/wszib/gui/AddMedicineGUI.java
+/home/michal/Dokumenty/Apteka/AptekaDB/PharmacyProject/src/main/java/pl/edu/wszib/gui/SecondMenuChoice.java
 /home/michal/Dokumenty/Apteka/AptekaDB/PharmacyProject/src/main/java/pl/edu/wszib/dataBase/DataBaseConnector.java

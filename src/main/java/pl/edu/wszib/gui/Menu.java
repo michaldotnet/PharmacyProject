@@ -6,12 +6,14 @@ public class Menu {
     public void initializeMenu(){
         System.out.println("Witaj w aptece, co chciałbyś zrobić?");
         Scanner input = new Scanner(System.in);
-        int menuChoice = input.nextInt();
         while(true) {
+            printMenu();
+            int menuChoice = input.nextInt();
             switch (menuChoice) {
 
                 case 1:
-
+                    AddMedicineGUI newMedicine = new AddMedicineGUI();
+                    newMedicine.addMedicine();
                     break;
 
                 case 2:

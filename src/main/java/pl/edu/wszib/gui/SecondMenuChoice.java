@@ -11,8 +11,15 @@ public class SecondMenuChoice {
         Scanner scanner = new Scanner(System.in);
         Medicine tempMedicine = new Medicine();
         System.out.println("Podaj nazwę leku");
-        tempMedicine.setMedicineName();
+        tempMedicine.setMedicineName(scanner.nextLine());
+        System.out.println("Podaj cenę jednostkową");
+        tempMedicine.setPrice(Double.parseDouble(scanner.nextLine()));
 
         DataBaseOperations.addMedicines(tempMedicine);
+    }
+
+    public void dialogWhenAddingMedicine(){
+
+
     }
 }
